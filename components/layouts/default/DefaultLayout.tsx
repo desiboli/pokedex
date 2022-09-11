@@ -10,7 +10,7 @@ const DefaultLayout: React.FC<IDefaultLayout> = ({ children }) => {
       <Head>
         <title>Default layout example</title>
       </Head>
-      <main className="min-h-screen flex flex-1 items-center justify-center">
+      <main className="min-h-screen flex flex-col flex-1 items-center justify-center">
         {children}
       </main>
     </>
